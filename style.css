@@ -7,6 +7,7 @@ header{
     background-color: #054e11;
     color: rgba(238, 132, 132, 0.589);
 }
+
 li{
     color: #202020; 
     list-style: none;
@@ -38,8 +39,9 @@ nav li:hover{
 }
 .logo{
     font-size: 3rem;
-    color: rgb(177, 0, 38);
+    color: rgb(7, 250, 47);
     justify-content: space-evenly;
+    margin-left: 2rem;
 }
 a{
     text-decoration: none;
@@ -100,13 +102,13 @@ nav li a{
     width: 100%;
     justify-content:center;
     align-items: center;
-    background-color:  #3b3b5863;
+    background-color:  #9797b475;
     height: 450px;
 }
 .discription{
     font-size: 25px;
     font-style: Monstret;
-    color: #e1e5f2;
+    color: #fafafa;
    width: 50%;
    justify-content:center;
    align-items:flex-start;
@@ -158,7 +160,7 @@ samp{
 .ceoheader{
     font-size: 50px;
     text-align: center;
-    color: #5370d1;
+    color: #024cec;
     margin-left: 5rem;
 }
 
@@ -170,12 +172,12 @@ samp{
 .ceoheader2{
     font-size: 35px;
     text-align: center;
-    color: #0885ebec;
+    color: #0885eb;
     margin-left: 5rem;
 }
 .castomer{
     height: 450px;
-    background-color: #03a5b8b4;
+    background-color: #03a6b896;
     display: flex; 
     overflow: hidden;
 }
@@ -252,6 +254,60 @@ h2{
     background-color: burlywood;
 }
 
+
+
+
+.burger{
+    display:flex;
+    text-align: center;
+    background-color: #f2f4fa;
+}
+.fistburger{
+    height: 10rem;
+}
+.secburger{
+    height: 10rem;
+    position: absolute;
+    left: 40rem;
+    bottom:39rem;
+}
+.burgerimg{
+   position:absolute;
+   right:0rem;
+}
+.newburger{
+display: inline;
+margin-top: 11rem;
+position:absolute;
+left: 50rem;
+height: 10rem;
+}
+.threesecburger{
+    height: 10rem;
+    position: absolute;
+    left: 48rem;
+    bottom:-5rem;
+}
+.ChickenFilet{
+    height: 10rem;
+    position: absolute;
+    left: 48rem;
+    bottom:-25rem;
+    
+   
+}
+.GrilledCheese{
+    height: 10rem;
+    position: absolute;
+    left: 45rem;
+    bottom:-47rem;
+}
+.tGrilledCheese{
+    height: 10rem;
+    position: absolute;
+    left: 45rem;
+    bottom:-69rem;
+}
 
 
 
